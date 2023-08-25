@@ -1,3 +1,3 @@
-export { Home as PageHome } from "./Home"
-export { List as PageList } from "./List"
+export { Descricao as PageHome } from "./Descricao"
+export { Topicos as PageList } from "./Topicos"
 export { Layout as PageLayout} from "./Layout"

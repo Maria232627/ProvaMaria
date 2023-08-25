@@ -1,19 +1,15 @@
 import * as S from "./styles"
-import Logo from "../../assets/truck.svg"
-
 export function Header() {
   return (
     <S.Header>
-      <picture>
-        <img src={Logo} alt="Logo" />
-      </picture>
       <S.NavBar>
+        <h3>Tecnologia que muda o mundo</h3>
         <ul>
           <li>
-            <a href="/">Página Inicial</a>
+            <a href="/">Tópicos</a>
           </li>
           <li>
-            <a href="/list">Lista</a>
+            <a href="/list">Descrição</a>
           </li>
         </ul>
       </S.NavBar>

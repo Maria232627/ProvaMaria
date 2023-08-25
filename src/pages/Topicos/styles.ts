@@ -15,3 +15,7 @@ export const Section = styled.section`
     grid-template-columns: auto;
   }
 `
+
+
+
+
